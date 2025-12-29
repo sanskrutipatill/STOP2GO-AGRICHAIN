@@ -68,6 +68,13 @@ Demo Video:
 
 https://github.com/user-attachments/assets/a822c50e-3577-40a5-9a92-aafd72abe2dd
 
+<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/a4777824-48f8-4039-9389-7bcbe7e8a0d3" />
+<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/db9e6df1-db56-47e0-9562-491e91fff5c3" />
+<img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/ec273018-6ca5-4e02-839d-787b0f42cb72" />
+<img width="1920" height="1080" alt="5" src="https://github.com/user-attachments/assets/a7d597f8-2ae9-48b3-9272-16805cffd513" />
+<img width="1920" height="1080" alt="6" src="https://github.com/user-attachments/assets/e6df6e76-dc5a-4b58-b056-a8378c6bf050" />
+
+
 **Conclusion**
 
 AgriChain aims to transform the agricultural supply chain by introducing transparency, security, and trust through blockchain technology. The platform empowers farmers, protects consumers, and promotes a more sustainable and fair agricultural ecosystem.
