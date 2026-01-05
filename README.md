@@ -8,7 +8,7 @@ The agricultural supply chain often lacks transparency, leading to unfair pricin
 
 By recording every stage of the produce lifecycle on the blockchain, AgriChain ensures accountability, reduces fraud, and builds confidence among farmers, distributors, retailers, and consumers.
 
-**Key Features**
+**Key Features** 
 
 Farmer registration and produce batch creation
 
