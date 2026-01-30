@@ -78,3 +78,31 @@ https://github.com/user-attachments/assets/a822c50e-3577-40a5-9a92-aafd72abe2dd
 **Conclusion**
 
 AgriChain aims to transform the agricultural supply chain by introducing transparency, security, and trust through blockchain technology. The platform empowers farmers, protects consumers, and promotes a more sustainable and fair agricultural ecosystem.
+### How to Run: Manual Startup (For Troubleshooting)
+If `start-all.bat` closes immediately or fails, verify each component by running them in **separate terminal windows** in this order:
+
+1.  **Terminal 1: Blockchain**
+    ```bash
+    npx ganache-cli --port 7545 --deterministic --networkId 1758369392079
+    ```
+    *Keep this running. Wait for "RPC Listening on..."*
+
+2.  **Terminal 2: Deploy Contracts & Setup Data**
+    ```bash
+    npx truffle migrate --reset --network development
+    node fix-item-tracking.js
+    ```
+    *You should see "Final cost", "Farmer added", etc.*
+
+3.  **Terminal 3: Backend Server**
+    ```bash
+    node server/index.js
+    ```
+    *Should see "Server on port 5000"*
+
+4.  **Terminal 4: Frontend Client**
+    ```bash
+    cd client
+    npm start
+    ```
+    *This will try to open your default browser to http://localhost:3000*
